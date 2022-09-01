@@ -10,6 +10,7 @@
     "axios": "^0.27.2",
     "bootstrap": "^5.1.0",
     "bootstrap-icons": "^1.9.1",
+    "bootstrap-toggle": "^2.2.2",
     "boxicons": "^2.1.2",
     "chart.js": "^3.9.1",
     "echarts": "^5.3.3",
@@ -22,6 +23,7 @@
     "react-scripts": "5.0.1",
     "remixicon": "^2.5.0",
     "simple-datatables": "^3.2.2",
+    "styled-components": "^5.3.5",
     "tinymce": "^6.1.2",
     "web-vitals": "^2.1.4"
   },

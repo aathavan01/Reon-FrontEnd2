@@ -39,6 +39,7 @@ import Profile from "./admin/pages/Profile";
 import PageSetting from "./admin/pages/PageSetting";
 import PageDetails from "./admin/pages/PageDetails";
 import UserProfile from "./user/pages/UserPage";
+import Mode from "./mode";
 
 function App() {
 	return (
@@ -76,6 +77,8 @@ function App() {
 			<Route exact path="/admin/profile" element={<Profile/>} />
 			<Route exact path="/admin/pageSetting" element={<PageSetting/>} />
 			<Route exact path="/admin/pageDetails" element={<PageDetails/>} />
+			<Route exact path="/Mode" element={<Mode/>} />
+
 
 
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import UserHeader from '../components/UserHeader'
+import { Link } from 'react-router-dom'
 
 
 const Index = () => {
@@ -21,7 +22,7 @@ const Index = () => {
                     </div>
                     </div>
                 </div>  
-                <a href="Vehicles" class="btn btn-warning">Hire Now<i class="bi bi-arrow-right"></i></a>
+                <Link to="Vehicles" class="btn btn-warning">Hire Now<i class="bi bi-arrow-right"></i></Link>
 
             </div>
             
