@@ -4,7 +4,7 @@ const VehicleAdd = () => {
   return (
    <>
 
-    <button class="mb-4 btn btn-primary shadow-sm text-white fw-bold theme-bg-blue" data-bs-toggle="modal" data-bs-target="#VehicleAdd"><i class="bi bi-car-front-fill"></i> VehicleAdd</button>
+    <button class="btn btn-primary shadow-sm text-white fw-bold theme-bg-blue" data-bs-toggle="modal" data-bs-target="#VehicleAdd"><i class="bi bi-car-front-fill"></i> VehicleAdd</button>
 
    <div class="modal fade" id="VehicleAdd" tabindex="-1" data-bs-backdrop="false">
   <div class="modal-dialog modal-dialog-centered">
