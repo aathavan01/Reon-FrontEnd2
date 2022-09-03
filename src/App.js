@@ -67,18 +67,6 @@ function App() {
       <Route exact path="/ownerPage" element={<OwnerPage />} />
       <Route exact path="/userPage" element={<UserProfile />} />
 
-      {/* Admin */}
-      <Route exact path="/admin/dashboard" element={<Dashboard />} />
-      <Route exact path="/admin/users" element={<Users />} />
-      <Route exact path="/admin/pages" element={<Pages />} />
-      <Route exact path="/admin/vehicles-car" element={<VehiclesCar />} />
-      <Route exact path="/admin/vehicles-bus" element={<VehiclesBus />} />
-      <Route exact path="/admin/hires-car" element={<HireCar />} />
-      <Route exact path="/admin/hires-bus" element={<HireBus />} />
-      <Route exact path="/admin/profile" element={<Profile />} />
-      <Route exact path="/admin/pageSetting" element={<PageSetting />} />
-      <Route exact path="/admin/pageDetails" element={<PageDetails />} />
-      <Route exact path="/carosel" element={<TestimonialSlider />} />
     </Routes>
   );
 }
