@@ -2,7 +2,8 @@ import React from "react";
 import Login from "../Popups/Login";
 import Signup from "../Popups/Signup";
 import { Link } from "react-router-dom";
-import Mode from "../../mode";
+import Notification from "../Popups/Notification";
+// import Mode from "../../mode";
 
 const UserHeader = () => {
   return (
@@ -17,11 +18,11 @@ const UserHeader = () => {
         </Link>
       </div>
       {/* <!-- End Logo --> */}
-      <Mode/>
+      {/* <Mode/> */}
       <nav className="header-nav ms-auto">
         <ul className="d-flex align-items-center">
           <div className="pt-4">
-            <Login /> <Signup />
+            <Login /> <Signup /> <Notification/>  
           </div>
 
           <li className="nav-item dropdown pe-3">

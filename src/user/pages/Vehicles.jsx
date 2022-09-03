@@ -9,9 +9,9 @@ const Vehicles = () => {
    <>
     <UserMain/>
 
-   <main id="main" className="main">
+   <main id="main" className="main Dark">
 
-   <div className="pagetitle pt-4">
+   <div className="pagetitle">
   <h1 className="theme-text2">Vehicles</h1>
   <nav>
     <ol className="breadcrumb">

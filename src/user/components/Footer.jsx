@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       {/* <!-- ======= Footer ======= --> */}
-      <footer id="footer" class="footer">
+      <footer id="footer" class="footer Dark">
         <div class="copyright">
           &copy; Copyright <strong><span>RE<span>O</span>N</span></strong>. All Rights Reserved
         </div>

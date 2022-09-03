@@ -1,61 +1,87 @@
-import React from 'react'
-import Footer from '../components/Footer'
-import UserHeader from '../components/UserHeader'
-import { Link } from 'react-router-dom'
-
+import React from "react";
+import Footer from "../components/Footer";
+import UserHeader from "../components/UserHeader";
+import { Link } from "react-router-dom";
+import VehicleAdd from "../Popups/VehicleAdd";
+import JoinWithUs from "../Popups/JoinWithUs";
 
 const Index = () => {
   return (
     <>
-    <UserHeader/>
+      <UserHeader />
 
-    <div className="paddingTop overflow-auto px-5 homePad">
-
-        <div className='row'>
-            <div className='col-lg-5 px-4 text-center h-50 w-40'>
-                <div className='card px-3 grey'>
-                <h4>Description</h4>
-                    <div className='px-5'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, minima in architecto, placeat iste cum reprehenderit esse facilis commodi iure quibusdam obcaecati voluptatum nobis totam nisi impedit. Tempore, architecto est.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. hello everyone. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolor natus commodi eius, repellendus autem consequatur corrupti facilis, accusantium repudiandae error quod, odio pariatur minus. Sit nobis recusandae unde illum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, totam corporis asperiores perferendis veniam fugiat nesciunt quasi optio ipsum in mollitia! Possimus itaque exercitationem. lore
-                    <div className='my-1'>
-                    </div>
-                    </div>
-                </div>  
-                <Link to="Vehicles" class="btn btn-warning">Hire Now<i class="bi bi-arrow-right"></i></Link>
-
+      <div className="pt-5 overflow-auto px-5 homePad Dark">
+        <div className="row">
+          <div className="col-lg-5 px-4 text-center h-50 w-40">
+            <div className="card bg-warning rounded-5">
+              <h3>Description</h3>
             </div>
-            
-            <div className='col-lg-7 card h-50 w-60'>
-                <img src= {require('../../assets/img/Transperth_Volgren_CR228L_bodied_Volvo_B7RLE.jpg')} alt='Vehicle image1' />
+            <div className="px-3 border-top border border-primary  h5 rounded-5">
+              <i class="bi bi-arrow-right"></i> Consumers can find and rent any
+              type of vehicle at REON.<i class="bi bi-arrow-left"></i>
             </div>
-            
+            <br />
+            <div className="px-3 border-top border border-primary  h5 rounded-5">
+              <i class="bi bi-arrow-right"></i> REON connects users with nearby
+              vehicle rental providers.<i class="bi bi-arrow-left"></i>
+            </div>
+            <br />
+            <div className="px-3 border-top border border-primary  h5 rounded-5">
+              <i class="bi bi-arrow-right"></i> Vehicle rental providers can
+              grab opportunities through REON.<i class="bi bi-arrow-left"></i>
+            </div>
+            <div className="mt-4">
+              <Link to="Vehicles" class="btn btn-outline-info" id="Hire">
+                Hire Now<i class="bi bi-arrow-right"></i>
+              </Link>
+            </div>
+          </div>
+
+          <div className="col-lg-7 card imgSize Dark">
+            <img
+              src={require("../../assets/img/Transperth_Volgren_CR228L_bodied_Volvo_B7RLE.jpg")}
+              alt="Vehicle image1"
+            />
+          </div>
         </div>
 
-            <div className='px-xl-5' >
-            <div className="card mb-4 ">
+        <div className="px-5 pt-5 ">
+          <div className="card mb-4 ">
             <div className="row g-0">
-            <div className="col-md-4">
-            <img src={require("../../assets/img/banner-alliance_partner_640x500.jpg")} className="img-fluid rounded-start" alt="Vehicle page profile"/>
-            </div>
-            <div className="col-md-8">
-            <div className="card-body">
-                <h5 className="card-title text-center">Join with Us and Add your vehicles</h5>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat, reprehenderit, aut dolorum cupiditate accusantium ut minima quasi laborum distinctio praesentium. Adipisci, ullam ipsum minima obcaecati voluptates quas! Eius, qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quos libero nobis nostrum optio ducimus sit dolore fugit, sed modi tempore repellendus eius ipsum illo perferendis quae quis eos architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatem quisquam nesciunt nobis maiores, earum corrupti suscipit illo nam sunt magni fuga recusandae vero ipsam quo corporis alias voluptate quasi?ww</p>
-                <br/>
-                <br/>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat, reprehenderit, aut dolorum cupiditate accusantium ut minima quasi laborum distinctio praesentium. Adipisci, ullam ipsum minima obcaecati voluptates quas! Eius, qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quos libero nobis nostrum optio ducimus sit dolore fugit, sed modi tempore repellendus eius ipsum illo perferendis quae quis eos architecto.</p>
+              <div className="col-md-4">
+                <img
+                  src={require("../../assets/img/banner-alliance_partner_640x500.jpg")}
+                  className="img-fluid rounded-start"
+                  alt="Vehicle page profile"
+                />
+              </div>
+              <div className="col-md-8 Dark">
+                <div className="card-body">
+                  <div className="card bg-warning rounded-5 text-center">
+                    <h3>Join with Us and Add your vehicles</h3>
+                  </div>
+                  <div className="px-3 border-top border border-primary  h5 rounded-5 text-center">
+                    <i class="bi bi-arrow-right bg-"></i> First SignUp and LogIn 
+                    <i class="bi bi-arrow-left"></i>
+                  </div>
+                  <br />
+                  <div className="px-3 border-top border border-primary  h5 rounded-5 text-center">
+                    <i class="bi bi-arrow-right"></i> FillUp this Form to Create Your Owner Page <i class="bi bi-arrow-right"></i> <JoinWithUs/>
+                    <i class="bi bi-arrow-left"></i>
+                  </div>
+                  <br />
+                  <div className="px-3 border-top border border-primary  h5 rounded-5 text-center">
+                    <i class="bi bi-arrow-right"></i> FillUp this Form to Add your Vehicles <i class="bi bi-arrow-right"></i> <VehicleAdd/> <i class="bi bi-arrow-left"></i>
+                  </div>
                 </div>
+              </div>
             </div>
-            </div>
+          </div>
         </div>
-    </div>
-</div>        
-<Footer/>
+      </div>
+      <Footer />
+    </>
+  );
+};
 
-</>
-    
-  )
-}
-
-export default Index
+export default Index;

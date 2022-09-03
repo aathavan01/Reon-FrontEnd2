@@ -42,7 +42,6 @@ const Harvester = () => {
           <div className="invalid-feedback">Please select your pick-up location</div>
         </div>
 
-    <section style={{backgroundColor:" #eee"}}>
   <div className="text-center container py-5">
 
     <div className="row">
@@ -53,11 +52,6 @@ const Harvester = () => {
             <img src= {require('../../../../assets/img/harvester.jpeg')} alt='Havester'
               className="w-100" />
             <Link to="#!">
-              {/* <div className="mask">
-                <div className="d-flex justify-content-start align-items-end h-100">
-                  <h5><span className="badge bg-primary ms-2">New</span></h5>
-                </div>
-              </div> */}
               <div className="hover-overlay">
                 <div className="mask" style={{backgroundColor: "rgba(251, 251, 251, 0.15)"}}></div>
               </div>
@@ -291,7 +285,6 @@ const Harvester = () => {
       
     </div>
   </div>
-</section>
   
     </div>
    </main>

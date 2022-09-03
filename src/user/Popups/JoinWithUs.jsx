@@ -3,9 +3,9 @@ import React from 'react'
 const JoinWithUs = () => {
   return (
     <>
-  <button class="mb-4 btn btn-primary shadow-sm text-white fw-bold theme-bg-blue" data-bs-toggle="modal" data-bs-target="#addNewOwner"> <i class="bi bi-person-plus"></i> Join With Us</button>
+  <button class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#addNewOwner"> <i class="bi bi-person-plus"></i> Join With Us</button>
 
-    <div class="modal fade" id="addNewOwner" tabindex="-1" data-bs-backdrop="false">
+    <div class="modal fade Dark" id="addNewOwner" tabindex="-1" data-bs-backdrop="false">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header theme-bg-orange text-white">

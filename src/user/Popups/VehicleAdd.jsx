@@ -4,11 +4,11 @@ const VehicleAdd = () => {
   return (
    <>
 
-    <button class="btn btn-primary shadow-sm text-white fw-bold theme-bg-blue" data-bs-toggle="modal" data-bs-target="#VehicleAdd"><i class="bi bi-car-front-fill"></i> VehicleAdd</button>
+    <button class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#VehicleAdd"><i class="bi bi-car-front-fill"></i> VehicleAdd</button>
 
-   <div class="modal fade" id="VehicleAdd" tabindex="-1" data-bs-backdrop="false">
+   <div class="modal fade Dark" id="VehicleAdd" tabindex="-1" data-bs-backdrop="false">
   <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+    <div class="modal-content"> 
       <div class="modal-header theme-bg-orange text-white">
         <h5 class="modal-title fw-bold">VehicleAdd</h5>
         <button type="button" class="btn bg-white" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg theme-text-blue"></i></button>
