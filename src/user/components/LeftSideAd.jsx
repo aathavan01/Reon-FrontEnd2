@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const LeftSide = () => {
   return (
     <>
-    <aside id="sidebar" className="sidebar2 yellowColor"></aside>
+      <aside id="sidebar" className="sidebar2 yellowColor"></aside>
     </>
-  )
-}
+  );
+};
 
-export default LeftSide
+export default LeftSide;

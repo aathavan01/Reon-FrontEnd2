@@ -6,8 +6,8 @@ import UserHeader from "./components/UserHeader";
 function UserMain() {
   return (
     <>
-      <UserHeader/>
-      <UserAside/>
+      <UserHeader />
+      <UserAside />
       {/* <UserRightSide/> */}
     </>
   );

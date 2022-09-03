@@ -22,7 +22,7 @@ const UserHeader = () => {
       <nav className="header-nav ms-auto">
         <ul className="d-flex align-items-center">
           <div className="pt-4">
-            <Login /> <Signup /> <Notification/>  
+            <Login /> <Signup /> <Notification />
           </div>
 
           <li className="nav-item dropdown pe-3">

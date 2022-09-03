@@ -61,17 +61,21 @@ const Index = () => {
                     <h3>Join with Us and Add your vehicles</h3>
                   </div>
                   <div className="px-3 border-top border border-primary  h5 rounded-5 text-center">
-                    <i class="bi bi-arrow-right bg-"></i> First SignUp and LogIn 
+                    <i class="bi bi-arrow-right bg-"></i> First SignUp and LogIn
                     <i class="bi bi-arrow-left"></i>
                   </div>
                   <br />
                   <div className="px-3 border-top border border-primary  h5 rounded-5 text-center">
-                    <i class="bi bi-arrow-right"></i> FillUp this Form to Create Your Owner Page <i class="bi bi-arrow-right"></i> <JoinWithUs/>
+                    <i class="bi bi-arrow-right"></i> FillUp this Form to Create
+                    Your Owner Page <i class="bi bi-arrow-right"></i>{" "}
+                    <JoinWithUs />
                     <i class="bi bi-arrow-left"></i>
                   </div>
                   <br />
                   <div className="px-3 border-top border border-primary  h5 rounded-5 text-center">
-                    <i class="bi bi-arrow-right"></i> FillUp this Form to Add your Vehicles <i class="bi bi-arrow-right"></i> <VehicleAdd/> <i class="bi bi-arrow-left"></i>
+                    <i class="bi bi-arrow-right"></i> FillUp this Form to Add
+                    your Vehicles <i class="bi bi-arrow-right"></i>{" "}
+                    <VehicleAdd /> <i class="bi bi-arrow-left"></i>
                   </div>
                 </div>
               </div>

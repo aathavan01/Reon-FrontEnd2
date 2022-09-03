@@ -15,7 +15,7 @@
 //       </div>
 //       <div class="modal-body">
 //         {/* <!-- Payment Form --> */}
-          
+
 //         {/* <!-- End Payment Form --> */}
 //       </div>
 //     </div>
