@@ -27,18 +27,7 @@ import Bulldozer from "./user/pages/Vehicle/Constructions/Bulldozer";
 import FrontLoaders from "./user/pages/Vehicle/Constructions/FrontLoaders";
 import VehicleDetails from "./user/pages/VehicleDetails";
 import OwnerPage from "./user/OwnerPage/OwnerPage";
-import Dashboard from "./admin/pages/Dashboard";
-import Users from "./admin/pages/Users";
-import Pages from "./admin/pages/Pages";
-import HireBus from "./admin/pages/Hires/Bus";
-import VehiclesCar from "./admin/pages/Vehicles/Car";
-import VehiclesBus from "./admin/pages/Vehicles/Bus";
-import HireCar from "./admin/pages/Hires/Car";
-import Profile from "./admin/pages/Profile";
-import PageSetting from "./admin/pages/PageSetting";
-import PageDetails from "./admin/pages/PageDetails";
 import UserProfile from "./user/pages/UserPage";
-import TestimonialSlider from "./user/components/Carosel";
 
 function App() {
   return (
